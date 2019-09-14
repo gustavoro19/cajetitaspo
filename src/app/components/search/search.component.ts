@@ -9,7 +9,9 @@ export class SearchComponent implements OnInit {
 
   constructor() { }
 
+  tavo: String;
   ngOnInit() {
+    this.tavo = "cesar";
   }
 
 }
